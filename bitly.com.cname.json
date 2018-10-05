@@ -1,0 +1,17 @@
+{
+   "providerId":"bitly.com",
+   "providerName":"Bitly",
+   "serviceId":"bitlysubdomain",
+   "serviceName":"Bitly Branded Short Subdomain",
+   "version": 1,
+   "logoUrl":"https://domainconnect.org/wp-content/uploads/2016/06/wix-300x103.png",
+   "description":"Enables a subdomain to work as a Bitly Branded Short Domain",
+   "records":[
+      {
+         "type":"CNAME",
+         "host":"@",
+         "pointsTo":"cname.bitly.com",
+         "ttl":"600"
+      }
+   ]
+}

@@ -1,0 +1,23 @@
+{
+   "providerId":"bitly.com",
+   "providerName":"Bitly",
+   "serviceId":"bitlydomain",
+   "serviceName":"Bitly Branded Short Domain",
+   "version": 1,
+   "logoUrl":"https://domainconnect.org/wp-content/uploads/2016/06/wix-300x103.png",
+   "description":"Enables a domain to work as a Bitly Branded Short Domain",
+   "records":[
+      {
+         "type":"A",
+         "host":"@",
+         "pointsTo":"67.199.248.12",
+         "ttl":"600"
+      },
+      {
+         "type":"A",
+         "host":"@",
+         "pointsTo":"67.199.248.13",
+         "ttl":"600"
+      }
+   ]
+}
